@@ -1,8 +1,6 @@
 package trees;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Main {
 
@@ -44,9 +42,19 @@ public class Main {
         System.out.println(map);
     }
 
+    public static void jdkTreeSets () {
+        Set<Integer> set = new TreeSet<>();
+        int[] arr = { 25, 20, 15, 27, 30, 29, 26, 22, 32, 17 };
+        for (int i=0; i<arr.length; i++) {
+            set.add(arr[i]);
+        }
+        System.out.println(set);
+    }
+
     public static void main (String[] args) {
 //        BST();
-        jdkTrees();
+//        jdkTrees();
+        jdkTreeSets();
     }
 
 }

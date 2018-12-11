@@ -1,5 +1,7 @@
 package queues;
 
+import java.util.Comparator;
+
 public class Employee {
 
     private String firstName;
@@ -64,4 +66,5 @@ public class Employee {
                 ", id=" + id +
                 '}';
     }
+
 }
